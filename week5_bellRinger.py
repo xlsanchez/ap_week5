@@ -64,18 +64,28 @@ joined_motto = ' '.join(motto)
 print(joined_motto)
 # b. Now, split the string at every occurrence of the letter 'a'.
 word1 = joined_motto.split('a')
+
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
+sentence = "Life is what happens when you are busy making other plans."
+
+busy_replace = print(sentence.replace("busy","distracted"))
+plans_replace = print(sentence.replace("plans","mistakes"))
+
+
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_word = print("iteration " * 7) 
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+word = "freedom"
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word_in_quote = print(word in quote)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
